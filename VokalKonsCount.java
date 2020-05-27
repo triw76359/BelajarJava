@@ -10,9 +10,7 @@ public class VokalKonsCount {
 
         for(i=0; i<word.length(); i++){
             if(word.charAt(i) == 'a' || word.charAt(i) == 'i' || word.charAt(i) == 'u' || word.charAt(i) == 'e' || word.charAt(i) == 'o'){
-                jumlah_vokal ++;
-            }
-        }
+                jumlah_vokal +  }
 
         return jumlah_vokal;
 
